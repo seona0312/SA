@@ -1,0 +1,11 @@
+﻿  KISA_HIGHT_CBC.c
+C:\Users\PC\Desktop\git\SA\test\Project1\KISA_HIGHT_CBC.c(458,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+C:\Users\PC\Desktop\git\SA\test\Project1\KISA_HIGHT_CBC.c(779,6): warning C4101: 'len' :참조되지 않은 지역 변수입니다.
+C:\Users\PC\Desktop\git\SA\test\Project1\KISA_HIGHT_CBC.c(885,23): warning C4133: '=': 'DWORD *'과(와) 'unsigned char *' 사이의 형식이 호환되지 않습니다.
+C:\Users\PC\Desktop\git\SA\test\Project1\KISA_HIGHT_CBC.c(906,23): warning C4133: '=': 'DWORD *'과(와) 'unsigned char *' 사이의 형식이 호환되지 않습니다.
+C:\Users\PC\Desktop\git\SA\test\Project1\KISA_HIGHT_CBC.c(950,69): warning C4133: '=': 'int *'과(와) 'unsigned char *' 사이의 형식이 호환되지 않습니다.
+C:\Users\PC\Desktop\git\SA\test\Project1\KISA_HIGHT_CBC.c(953,31): warning C4133: '함수': 'unsigned char *'과(와) 'DWORD *' 사이의 형식이 호환되지 않습니다.
+C:\Users\PC\Desktop\git\SA\test\Project1\KISA_HIGHT_CBC.c(954,42): warning C4133: '함수': 'unsigned char *'과(와) 'DWORD *' 사이의 형식이 호환되지 않습니다.
+C:\Users\PC\Desktop\git\SA\test\Project1\KISA_HIGHT_CBC.c(981,9): warning C4013: 'Display'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\PC\Desktop\git\SA\test\Project1\KISA_HIGHT_CBC.c(992,105): warning C4133: '함수': 'unsigned char [80]'과(와) 'int *' 사이의 형식이 호환되지 않습니다.
+  Project1.vcxproj -> C:\Users\PC\Desktop\git\SA\test\Project1\Debug\Project1.exe
