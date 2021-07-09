@@ -1,0 +1,60 @@
+1620627089142	Rename resource 'sockjs.js'
+1620635897996	Delete element
+1620636146829	Delete element
+1620636162227	Copy compilation unit
+1620636165442	Copy compilation unit
+1620636168561	Delete elements
+1620636825183	Copy compilation unit
+1620636830530	Delete element
+1620698390247	Delete element
+1620705145327	Delete element
+1620722234477	Delete element
+1620723138854	Delete element
+1620723765183	Delete elements
+1620785599025	Delete elements
+1620785601604	Delete element
+1620785603179	Delete element
+1620785615623	Delete element
+1620785622653	Delete element
+1620785632369	Delete element
+1620785635029	Delete elements
+1620785641631	Rename type 'WebSocket2'
+1620785664392	Rename resource 'WebSocket2.jsp'
+1620786739155	Delete element
+1620793883515	Rename package 'egovframework.example'
+1620793945441	Copy package
+1620793969312	Copy package
+1620793986200	Copy package
+1620793998947	Copy package
+1620794016118	Copy package
+1620794028294	Copy package
+1620794046042	Copy package
+1620794056866	Delete element
+1620794091618	Delete element
+1620794115597	Copy package
+1620794121639	Delete element
+1620794391927	Copy compilation units
+1620794393886	Copy compilation unit
+1620794404447	Copy compilation units
+1620794419833	Rename type 'EgovSampleController'
+1620794427218	Rename type 'SampleVO'
+1620794432735	Rename type 'SampleDefaultVO'
+1620794437257	Rename type 'EgovSampleService'
+1620794442600	Rename type 'SampleMapper'
+1620794450397	Rename type 'EgovSampleServiceImpl'
+1620794454540	Rename type 'SampleDAO'
+1620794908552	Rename type 'mainVO'
+1620797099027	Delete element
+1620797108170	Copy compilation unit
+1620797121102	Rename type 'SampleDefaultVO'
+1620797133097	Delete element
+1620797232353	Delete element
+1620797343603	Copy file
+1620797471625	Copy file
+1620798304465	Copy compilation unit
+1620798311030	Rename type 'SearchDefaultVO'
+1620799298830	Delete element
+1620799340913	Copy files
+1620799348229	Rename resource 'egovSampleList.jsp'
+1620799352774	Rename resource 'egovSampleRegister.jsp'
+1620802682151	Copy file
