@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="egovframework.com.main.service.impl.MainMapper">
+
+	<resultMap id="main" type="egovframework.com.main.service.MainVO">
+		<result property="deviceid" column="deviceId"/>
+		<result property="pm_1_0" column="pm10"/>
+		<result property="pm_2_5" column="pm25"/>
+		<result property="pm_10_0" column="pm100"/>
+		<result property="temp_c" column="tempc"/>
+		<result property="temp_f" column="tempf"/>
+		<result property="humi" column="humi"/>
+		<result property="co2" column="co2"/>
+		<result property="tvoc" column="tvoc"/>
+		<result property="score" column="score"/>
+		<result property="date" column="date"/>
+	</resultMap>
+
+	<select id="selectMainList" parameterType="searchVO" resultType="egovMap">
+
+			SELECT  DEVICE_ID as deviceId
+				  , PM_1_0 as pm10
+				  , PM_2_5 as pm25
+				  , PM_10_0 as pm100
+				  , Temp_c as tempc
+				  , Temp_f as tempf
+				  , HUMI as humi
+				  , CO2 as co2
+				  , TVOC as tvoc
+				  , SCORE as score
+				  , DATE_FORMAT(DATE, '%Y.%m.%d %H:%i:%s') as date
+			FROM IS_AIOT_IAQ
+			WHERE 1=1
+			LIMIT #{recordCountPerPage} OFFSET #{firstIndex}
+	</select>
+
+	<select id="selectMainListTotCnt" parameterType="searchVO" resultType="int">
+
+			SELECT COUNT(*) totcnt
+			FROM IS_AIOT_IAQ
+			WHERE 1=1			
+	</select>
+
+</mapper>
